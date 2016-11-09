@@ -25,3 +25,15 @@ if strength + health + luck <= 15:
 	print("Your character's strength is " + str(strength) + ", health is " + str(health) + " and luck is " + str(luck) + ".")
 
 print(str(character_name) + ", you've come to a fork in the road. Do you want to go right or left? Enter 'right or left'.")
+
+choice = str(raw_input())
+
+if (choice == 'right') or (choice == 'Right'):
+	print("You've come across your favorite baseball team \'s home field. They are one man down and have asked you to fill in a position for the wild card game against the Los Angeles Dodgers.")
+	if strength >= 7:
+		print("Your high strength resulted in a walk-off grand slam that secured your team a spot in the next round!")
+	if strength <7:
+		print("Your strength was not enough to result in a basehit. Therefore, your team lost the wild card. Bummer.")
+
+if (choice == 'left') or (choice == 'Left'):
+	print: (
