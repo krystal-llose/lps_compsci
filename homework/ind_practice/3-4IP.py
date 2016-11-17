@@ -1,10 +1,13 @@
-# number 1
+# number 2
 
-# variable is set equal to 1 
-x = 1
- 
-while x < 10:
-# the following code will run so long as the statement above is true 
-   print(x)
-   x = x + 1 
+print("What's your favorite number?")
+x = int(raw_input())
+
+if x == 14:
+	print("14 is the best number ever!")
+
+# this is not complete 
+# continuous loop 
+while x < 14 or x > 14:
+	print("I don't like that number - try another!")
 
