@@ -36,4 +36,8 @@ if (choice == 'right') or (choice == 'Right'):
 		print("Your strength was not enough to result in a basehit. Therefore, your team lost the wild card. Bummer.")
 
 if (choice == 'left') or (choice == 'Left'):
-	print: (
+	print("You're currently in line to meet your favorite musical artist at a store that they are sponsored by.")
+	if luck >= 6:
+		print("Your high luck has given you the final slot to meet your favorite artist! Guess those hours waiting in the cold really paid off.")
+	if luck < 6:
+		print("Your lack of luck stopped you from meeting your favorite artist. Guess you shouldn't have let that little girl cut you in line.")
